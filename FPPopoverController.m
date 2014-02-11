@@ -56,7 +56,8 @@
 
 -(void)addObservers
 {
-    [[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];   
+#warning warning
+    [[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];
     
     [[NSNotificationCenter defaultCenter] 
      addObserver:self 
